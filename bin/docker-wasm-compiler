@@ -1,0 +1,2 @@
+#!/bin/sh
+docker run --rm -v $(pwd):/src trzeci/emscripten emcc -O3 -s WASM=1 -s SIDE_MODULE=1 -o "$2" "$1"

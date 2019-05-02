@@ -1,0 +1,7 @@
+{
+    "name": "docker-wasm-compiler",
+    "version": "0.0.1",
+    "bin": {
+        "docker-wasm-compiler": "./bin/docker-wasm-compiler"
+    }
+}
